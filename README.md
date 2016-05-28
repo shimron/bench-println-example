@@ -18,6 +18,6 @@ a example code used to identify a runtime issue of go while using fmt.Fprintln
     
     测试期间，通过http://localhost:9090/debug/pprof可以观察到threadcreated剧增   
     
-  * 使用wrk测试h2
+  * 使用wrk测试h2     
     wrk -t10 -d20 http://localhost:9090/h2  服务可以正常运行    
   
